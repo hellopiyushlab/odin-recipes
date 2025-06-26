@@ -1,3 +1,7 @@
+/* .body {
+    display: flex;
+}
+
 .heading {
     background-color: #6F4E37;
     color: white;
@@ -6,6 +10,7 @@
     text-align: center;
     margin: auto;
     margin-bottom: 30px;
+    border-radius: 20px;
 }
 h2.heading {
     box-sizing: border-box;
@@ -42,4 +47,25 @@ img {
     background-color: #b38b6f;
     width: 700px;
     border: #6F4E37 solid 5px;
+} */
+
+/* New CSS */
+
+body {
+    margin: 0;
+    display: flex;
+}
+
+/* body div {
+    flex: 1;
+} */
+
+body .left-container, 
+.right-container {
+    background-color: rgb(212, 201, 201);
+    flex: 1 0 0;
+}
+
+body .mid-container {
+    flex: 1 1 auto;
 }
