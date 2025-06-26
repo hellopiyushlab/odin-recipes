@@ -56,16 +56,16 @@ body {
     display: flex;
 }
 
-/* body div {
-    flex: 1;
-} */
-
 body .left-container, 
 .right-container {
     background-color: rgb(212, 201, 201);
-    flex: 1 0 0;
+    flex-shrink: 1;
+    flex-grow: 1;
+    flex-basis: 0%;
 }
 
 body .mid-container {
-    flex: 1 1 auto;
+    flex-shrink: 0;
+    flex-grow: 1;
+    flex-basis: content;
 }
